@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/task.css">
+    <link rel="stylesheet" href="../css/dimple.css">
+    <style>
+        #ar {
+            -webkit-animation: rotation 2s infinite linear;
+        }
+        
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(-15deg);
+            }
+            to {
+                -webkit-transform: rotate(359deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="col-sm-12" style="background-color:rgb(6, 76, 109);position: static;height: 7rem;">
+        <p style="color: aliceblue;font-size: 3rem;    margin-left: 35rem;">Cross Sectional Sample</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
+            <h4 style="color: blue;">Instructions :</h4>
+            <div class="instructions">
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+                <p id="demo3"></p>
+                <p id="demo4"></p>
+                <p id="demo5"></p>
+            </div>
+            <div class="buttons_area">
+                <button class="btn btn-primary" id="btn1" onclick="sample_plate()">Select Sample</button><br><br>
+                <button class="btn btn-primary" id="btn2" onclick="combine_plate()">Combine two plates</button><br><br>
+                <button class="btn btn-primary" id="btn3" onclick="circular_disk()">Make Circular Disk</button><br><br>
+            </div>
+            <div class="reset">
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="col-lg-6" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
+            <div class="image_pad">
+                <img src="" alt="" id="display_image" style="margin-left: 50%; margin-right: 50%;">
+                <!-- <img src="../images/brasstube.PNG" alt="" id="brasstube"> -->
+            </div>
+        </div>
+    </div>
+    <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
+    </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/zoom.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/task.js"></script>
+    <script src="../js/dimple.js"></script>
+</body>
+
+</html>

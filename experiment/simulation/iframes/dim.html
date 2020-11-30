@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/task.css">
+    <style>
+        #ar {
+            -webkit-animation: rotation 2s infinite linear;
+        }
+        
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(-15deg);
+            }
+            to {
+                -webkit-transform: rotate(359deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="col-sm-12" style="background-color:rgb(6, 76, 109);position: static;height: 7rem;">
+        <p style="color: aliceblue;font-size: 3rem;    margin-left: 40rem;">Dimpling</p>
+    </div>
+    <div class="col-sm-3" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
+        <h4 style="color: blue;">Instructions :</h4>
+        <h5>Place the sample on the module to perform the dimpling process on sample. Now Start Dimpling process and get the sample.</h5>
+    </div>
+    <div class="col-3">
+        <div class="panel" style="position: absolute; margin-top: -6rem;">
+            <form>
+                <ul id="sortable1" class="connectedSortable">
+                    <li class="ui-state-default" id="1"><img src="../images/Picture1.png" alt="1" style="height: 7rem;
+                        width: 12rem;z-index: 5;
+                       
+                        margin-top: 1rem;"></li><br>
+
+                </ul>
+            </form>
+            <button class="btn btn-primary" id="csp" onclick="chk()" style="margin-top: 7rem;">Check sample position.</button><br><br>
+            <button class="btn btn-primary" id="dimple" onclick="dimple()" disabled>start dimpling</button><br><br>
+            <button class="btn btn-primary" id="fsb" onclick="getsampl()" disabled>get final sample</button><br><br>
+            <button class="btn btn-danger" onclick="reload()">Reset</button><br><br>
+
+        </div>
+
+    </div>
+    <div class="col-3">
+        <div class="panel padd" style=" background: #444;position: fixed;left: 28rem; height: 40rem;
+        width: 60rem;">
+            <div>
+                <ul id="sortable2" style="height: 7rem;
+                width: 7rem;
+                left: 15%;
+                top: 26%;
+                position:  absolute;
+                z-index: 8;" class="connectedSortable">
+                </ul>
+            </div>
+            <img data-id="9" onclick="openPartModal(this)" src="../images/module.png" class="part a" style=" top: 42%;
+            width: 15rem;
+            left: 51%;
+            height: 15rem;
+            position: inherit;" />
+            <img src="../images/wheel.png" alt="2" id="wh" style="margin-top: -2rem;display: none;
+            margin-left: 11rem; z-index: 10;
+            position: relative;">
+            <img src="../images/arrow.png" alt="3" id="ar" style="margin-bottom: 9rem;
+            margin-left: -11.5rem;
+            margin-top: 6rem;
+            z-index: 25;
+            position: relative;display: none;">
+
+        </div>
+        <img src="../images/123.png" id="fs" alt="a" style=" left: 60rem;
+        position: fixed;
+        top: 35rem;display: none;">
+    </div>
+    </div>
+    <div id="part-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered justify-content-center" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body text-center">
+                    <!-- <img id="part-img" src="../images/parts/1.png" /> -->
+                    <p class="mt-5">
+                        <b>Description:</b> <span id="part-desc">This part is used to do something, something
+                                something.
+                                Something something.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
+    </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/zoom.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/task.js"></script>
+</body>
+
+</html>
