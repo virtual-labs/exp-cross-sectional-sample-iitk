@@ -9,4 +9,8 @@ Important Notes:<br>
 3)	In case when the size of samples is very small, the buoyancy may lift the samples up (when pouring resing/epoxy) during mounting. Hence appropriate measures may be taken to ensure that the samples do not change their position, otherwise the change in the levelling may waste the effort of sample preparation of one or more samples.<br>
 4)	Also, ensure that samples are properly aligned and do not change position during mounting. Labelling of samples is very important, otherwise the user might end-up observing irrelevant features as the regions of the coating and substrate may mix-up. <br>
 5)	In this case, electrochemical etching may not work, as you have coating, substrate and mount materials with difference in the etching rates and may require different chemicals. So, usually ion-beam milling is performed for the final sample preparation for observation under TEM.<br>
-
+<video width="320" height="240" controls>
+  <source src="images/exp10-TEM-CS_sample_mod (1).mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video><br>
+Video on Cross-sectional Sample Preparation
