@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html> 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +9,25 @@
     <link rel="stylesheet" href="../css/task.css">
     <link rel="stylesheet" href="../css/dimple.css">
     <style>
-        #ar {
+        #btn_class {
+            font-weight: bold;
+            position: absolute;
+            /* top: 1%; */
+            right: 1%;
+            padding: 0.5rem;
+            background-color: #154360;
+            border: none;
+            color: white;
+            /* padding: 13px 30px; */
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            display: inline-block;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+        
+        #ar{
             -webkit-animation: rotation 2s infinite linear;
         }
         
@@ -28,7 +45,7 @@
 
 <body>
     <div class="col-sm-12" style="background-color:rgb(6, 76, 109);position: static;height: 7rem;">
-        <p style="color: aliceblue;font-size: 3rem;    margin-left: 35rem;">Cross Sectional Sample</p>
+        <p style="color: aliceblue;font-size: 3rem;margin-left: 35rem;">Cross Sectional Sample</p>
     </div>
     <div class="row">
         <div class="col-md-4" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
@@ -41,13 +58,19 @@
                 <p id="demo5"></p>
             </div>
             <div class="buttons_area">
-                <button class="btn btn-primary" id="btn1" onclick="sample_plate()">Select Sample</button><br><br>
-                <button class="btn btn-primary" id="btn2" onclick="combine_plate()">Combine two plates</button><br><br>
-                <button class="btn btn-primary" id="btn3" onclick="circular_disk()">Make Circular Disk</button><br><br>
+            <button class="btn btn-primary" id="btn1" onclick="sample_plate()">Select Sample</button><br><br>
+            <button class="btn btn-primary" id="btn2" onclick="combine_plate()">Combine two plates</button><br><br>
+            <button class="btn btn-primary" id="btn3" onclick="circular_disk()">Make Circular Disk</button><br><br>
             </div>
             <div class="reset">
                 <button class="btn btn-danger" onclick="reset()">Reset</button>
             </div>
+            <br>
+
+            <button id="btn_class" onclick="changeiframe()">
+                Dimpling Process
+            </button>
+
         </div>
         <div class="col-lg-6" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
             <div class="image_pad">
@@ -59,6 +82,11 @@
     <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
     </div>
     </div>
+    <script>
+        function changeiframe() {
+            window.location = 'dim.html';
+        }
+    </script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.min.js"></script>

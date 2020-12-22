@@ -39,6 +39,24 @@ a {
     padding: 0.5rem;
 }
 
+#btn_class {
+    font-weight: bold;
+    position: absolute;
+    /* top: 1%; */
+    /* right: 1%; */
+    padding: 0.5rem;
+    background-color: #154360;
+    border: none;
+    color: white;
+    /* padding: 13px 30px; */
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
 .ucontrol .observation-mock {
     width: 100%;
     height: 15rem;
@@ -61,7 +79,7 @@ a {
 .panel {
     background: #fff;
     width: 25rem;
-    height: 20rem;
+    height: 21rem;
     box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
     padding: 0.5rem;
     position: relative;

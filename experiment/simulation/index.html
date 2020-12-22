@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <!-- <link rel="stylesheet" href="style.css"> -->
@@ -8,52 +7,14 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <style>
-    #btn_class {
-        font-weight: bold;
-        position: absolute;
-        /* top: 1%; */
-        right: 1%;
-        padding: 0.5rem;
-        background-color: #154360;
-        border: none;
-        color: white;
-        /* padding: 13px 30px; */
-        text-decoration: none;
-        text-align: center;
-        font-size: 14px;
-        display: inline-block;
-        margin-top: 1rem;
-        cursor: pointer;
-    }
-    
     .wrapper {
         margin-top: 2rem;
         width: 100%;
         height: 100%;
     }
 </style>
-
 <body>
     <!--======================Frame 1st=====================================-->
     <div class="wrapper"> <iframe src="iframes/dimpling.html" height="850" width="1300" id="myframe"></iframe></div>
-    <button id="btn_class" onclick="changeiframe()">
-        Dimpling Process
-    </button>
-    <script>
-        let ar = [
-            ["iframes/dim.html", "Go to Ion Milling"],
-            ["iframes/ionmilling.html", "End Of Experiment"]
-        ];
-        let c = 0;
-
-        function changeiframe() {
-            if (c == ar.length) return;
-            document.getElementById("myframe").contentWindow.location.replace(ar[c][0]);
-            //document.getElementById("myframe").src = ;
-            document.getElementById("btn_class").innerHTML = ar[c][1];
-            c++;
-        }
-    </script>
 </body>
-
 </html>

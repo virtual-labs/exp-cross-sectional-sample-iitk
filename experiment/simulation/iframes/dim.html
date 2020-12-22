@@ -31,7 +31,7 @@
     </div>
     <div class="col-sm-3" style="background-color:#fff;position: static;height: 15rem;margin-left: 2rem;margin-top: 3rem;">
         <h4 style="color: blue;">Instructions :</h4>
-        <h5>Place the sample on the module to perform the dimpling process on sample. Now Start Dimpling process and get the sample.</h5>
+        <h5>Place the sample on the module to perform the dimpling process on sample. Then Start Dimpling process and get the sample.</h5>
     </div>
     <div class="col-3">
         <div class="panel" style="position: absolute; margin-top: -6rem;">
@@ -44,11 +44,13 @@
 
                 </ul>
             </form>
-            <button class="btn btn-primary" id="csp" onclick="chk()" style="margin-top: 7rem;">Check sample position.</button><br><br>
-            <button class="btn btn-primary" id="dimple" onclick="dimple()" disabled>start dimpling</button><br><br>
-            <button class="btn btn-primary" id="fsb" onclick="getsampl()" disabled>get final sample</button><br><br>
+            <button class="btn btn-primary" id="csp" onclick="chk()" style="margin-top: 7rem;">Check sample position</button><br><br>
+            <button class="btn btn-primary" id="dimple" onclick="dimple()" disabled>Start dimpling</button><br><br>
+            <button class="btn btn-primary" id="fsb" onclick="getsampl()" disabled>Get final sample</button><br><br>
             <button class="btn btn-danger" onclick="reload()">Reset</button><br><br>
-
+            <button id="btn_class" onclick="changeiframe()" >
+                Go to Ion Milling
+            </button>
         </div>
 
     </div>
@@ -107,6 +109,11 @@
     <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
     </div>
     </div>
+    <script>
+        function changeiframe() {
+            window.location = 'ionmilling.html';
+        }
+    </script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.min.js"></script>
