@@ -10,7 +10,7 @@ Important Notes:<br>
 4)	Also, ensure that samples are properly aligned and do not change position during mounting. Labelling of samples is very important, otherwise the user might end-up observing irrelevant features as the regions of the coating and substrate may mix-up. <br>
 5)	In this case, electrochemical etching may not work, as you have coating, substrate and mount materials with difference in the etching rates and may require different chemicals. So, usually ion-beam milling is performed for the final sample preparation for observation under TEM.<br>
 <video width="320" height="240" controls>
-  <source src="images/exp10-TEM-CS_sample_mod (1).mp4" type="video/mp4">
+  <source src="images/exp10-TEM-CS_sample.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
 Video on Cross-sectional Sample Preparation
