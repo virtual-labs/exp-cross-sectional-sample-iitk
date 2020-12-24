@@ -131,7 +131,7 @@
       correctAnswer: "c"
     },
 {
-      question: "5.	Generically, which is the maximum thickness level of coating that allows it to be called “nano-coating”",
+      question: "5.	Generically, which is the maximum thickness level of coating that allows it to be called “nano-coating"",
       answers: {
         a: "< 1 nm",
         b: "< 10 nm",
