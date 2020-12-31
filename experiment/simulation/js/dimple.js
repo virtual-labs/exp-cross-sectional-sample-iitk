@@ -16,7 +16,7 @@ function combine_plate(){
 function circular_disk(){
     document.getElementById("display_image").src = "../images/disk1.PNG";
     document.getElementById("btn3").disabled = true;   
-     document.getElementById("demo4").innerHTML = "4. Now Click on the Dimpling Process button on the bottom right corner."
+     document.getElementById("demo4").innerHTML = "4. Now Click on the Dimpling Process button."
 }
 function cylinder_disk(){
     document,getElementById("display_image").src = "../images/disks_cylinder.PNG";
