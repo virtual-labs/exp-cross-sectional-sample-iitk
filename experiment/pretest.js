@@ -101,7 +101,7 @@
     },
 
 {
-      question: "2.The slicing of sample is performed to obtain a sheet of thickness less than:",
+      question: "2. The slicing of sample is performed to obtain a sheet of thickness less than:",
       answers: {
         a: "1 mm",
         b: "100 µm",
