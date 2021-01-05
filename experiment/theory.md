@@ -3,7 +3,7 @@ The cross-sectional TEM sample preparation is bit tricky. It requires some effor
 <video width="320" height="240" controls>
   <source src="images/exp10-TEM-CS_sample.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video><br>Video on Video on Cross-sectional Sample Preparation</div>
+</video><br>Video on Cross-sectional Sample Preparation</div>
 </div>
 <div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
 <div style ="text-align: justify;text-justify: inter-word;"> These can be placed parallel or at multiple locations fr easy identification. Now, the usual slicing (or grinding of the mount) to a thin sheet (< 100 µm), followed by punching out a 3 mm disc. Then, the process of dimpling and ion beam milling are adopted as done routinely for the normal samples. The advantage of cross-sectional TEM samples is to be able to observe relevant portion of the microstructure and enhance the chance of capturing the region of interest for imaging.<br>
