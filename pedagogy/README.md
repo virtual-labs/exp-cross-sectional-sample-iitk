@@ -57,7 +57,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| Student will be able to prepare the cross sectional sample preparation | - Sectioning and stacking the samples<br>- Cutting rectangular pieces<br>- Cutting 2.5 mm cylindrical pillar<br>- Inserting into copper tube and filling with Glue<br>- Sectioning 3mm discs and thinning<br>- Dimpling the discs<br>- Ion beam milling | Type the question that will assess what student has learnt
+1.| Student will be able to prepare the cross sectional sample preparation | - Sectioning and stacking the samples<br>- Cutting rectangular pieces<br>- Cutting 2.5 mm cylindrical pillar<br>- Inserting into copper tube and filling with Glue<br>- Sectioning 3mm discs and thinning<br>- Dimpling the discs<br>- Ion beam milling | In Dimpling process how much the sample is thin down?<br><b>a)2-5 µm</b><br>b)5-7 µm<br>c)7-10 µm<br>d)10-12 µm<br>
 
 
  <br>
