@@ -1,0 +1,46 @@
+[{
+	"question": "1.Slicing of which samples can NOT be easily performed for TEM sample preparation:",
+	"answers": {
+		"a": "Biological sample",
+		"b": "Polymeric sample",
+		"c": "Metallic sample",
+		"d": "Ceramic sample"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. The slicing of sample is performed to obtain a sheet of thickness less than:",
+	"answers": {
+		"a": "1 mm",
+		"b": "100 µm",
+		"c": "1 µm",
+		"d": "100 nm"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3.The punching off a disc from the sheet is usually of what size?",
+	"answers": {
+		"a": "3 mm",
+		"b": "1mm",
+		"c": "100 µm",
+		"d": "1 µm"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "4.The dimpling is performed to bring down the thickness to approximately what size?",
+	"answers": {
+		"a": "2-5 nm",
+		"b": "20-50 nm",
+		"c": "2-5 µm",
+		"d": "20-50 µm"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "5.Generically, which is the maximum thickness level of coating that allows it to be called “nano-coating”",
+	"answers": {
+		"a": "< 1 nm",
+		"b": "< 10 nm",
+		"c": "<100 nm",
+		"d": "< 1000 nm"
+	},
+	"correctAnswer": "c"
+}]
