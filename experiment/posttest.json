@@ -1,0 +1,44 @@
+[{
+	"question": "1.\tWhat is the advantage of cross-sectional sample preparation over conventional TEM sample preparation?",
+	"answers": {
+		"a": "Cross-sectional TEM sample preparation process makes available larger region of interest available for imaging ",
+		"b": "Cross-sectional TEM sample preparation process makes usage of higher kV for imaging and can provide higher resolution ",
+		"c": "Cross-sectional TEM sample preparation process requires lesser number of steps ",
+		"d": "Cross-sectional TEM sample preparation process is faster as it uses electrochemical etching. "
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2.\tCross-sectional TEM sample preparation is NOT preferred for imaging:",
+	"answers": {
+		"a": "Modified top-surface via chemical treatment",
+		"b": "Nano-crystallites in a bulk matrix  ",
+		"c": "Interface between coating and substrate",
+		"d": "d.\tNano-textured layers during multi-pass rolling of samples"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3.\tAn important precaution to be observed for processing the cross-sectional TEM sample is:",
+	"answers": {
+		"a": "To preserve the sliced pieces in protected atmosphere and avoid their oxidation",
+		"b": "Carefully slicing the samples to thickness of less than 1 mm",
+		"c": "Utilising liquid nitrogen for the dimpling of samples",
+		"d": "Preparing the surface for TEM observation using electrochemical etching"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "4.\tWhat problem may NOT crop up during mounting of the sliced samples for cross-sectional TEM:",
+	"answers": {
+		"a": "Buoyancy effects may lift the samples up during pouring of epoxy/resin",
+		"b": "Shifting of samples may occur during ",
+		"c": "Alignment of interface region may occur during mounting ",
+		"d": "Ion beam etching will not work on the mounted samples"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "5.\tThe sectioned samples are kept placed on the mount with the interface region facing:<br>Note: Larger region of interest is exposed for imaging.",
+	"answers": {
+		"a": "Parallel to top surface",
+		"b": "Perpendicular to top surface"
+	},
+	"correctAnswer": "b"
+}]
